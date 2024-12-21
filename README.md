@@ -167,16 +167,20 @@ I am excited about the opportunity to bring my diverse skill set, passion for te
 <summary><b>Provide an example of a time when you had to make a difficult decision.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>In my last role as a software developer at a mid-sized tech company, we were working on a major update for one of our key products. During the development phase, I discovered that a significant portion of the legacy code was not compatible with the new features we planned to implement.
+        <b>Situation: </b>During the CRM project I led, we were working on integrating PostFinance for online payments. Midway through the development, a critical issue emerged with the compatibility of PostFinance’s APIs and our existing payment processing workflow. Switching to a different payment provider would significantly delay the project timeline, but continuing with PostFinance would require extensive rework of the payment architecture. The team was divided on which course of action to take, and the stakeholders were pressing for quick resolution.
     </li>
     <li>
-        <b>Task: </b>As the lead developer, it was my responsibility to decide whether to refactor the legacy code, which would be time-consuming and potentially delay our release, or to proceed with the existing codebase, which would limit the functionality of the new features.
+        <b>Task: </b>As the team lead, I needed to make a decision that balanced project timelines, technical feasibility, and client satisfaction. My task was to ensure the project's success while minimizing risks and maintaining team morale.
     </li>
     <li>
-        <b>Action: </b>After a thorough analysis, I concluded that refactoring the legacy code was essential for the long-term success and scalability of the product. I presented my findings to the team and management, outlining the benefits of refactoring against the potential risks and delays. This involved a detailed explanation of the technical challenges and the implications for product performance. I advocated for a phased approach to the refactor, which would allow us to manage the workload more effectively and minimize disruption.
+        <b>Action: </b>I organized a team meeting to evaluate both options thoroughly. I gathered inputs from the developers, QA engineers, and architects to understand the full scope of challenges and potential solutions. Simultaneously, I reached out to PostFinance’s technical support team for clarification on API limitations and potential workarounds.
+
+After considering all factors, I decided to stick with PostFinance but restructured the payment workflow to accommodate their API constraints. This involved rewriting key parts of the backend in C# and reconfiguring the API integration layer. I reassigned tasks to team members based on their expertise to accelerate the rework process and ensured clear communication with stakeholders about the revised timeline and rationale.
     </li>
     <li>
-        <b>Result: </b>My decision was supported by the team and management. The refactoring process took an additional three weeks, but the outcome was a more robust, efficient, and scalable product. This decision not only improved the current update but also streamlined future development efforts, as the new codebase was much easier to work with. The product's performance metrics improved significantly, and the feedback from clients was overwhelmingly positive. This experience taught me the importance of making forward-thinking decisions, even when they involve difficult trade-offs, and reinforced the value of clear communication and strategic planning in software development.
+        <b>Result: </b>The rework was completed within two weeks, and the integration with PostFinance went live successfully. The client was pleased with the solution and appreciated our transparent communication throughout the process. The project’s overall timeline was delayed minimally, and we learned valuable lessons about early compatibility checks in third-party integrations.
+
+In hindsight, I would have implemented a more comprehensive pre-integration testing process to identify compatibility issues earlier. Additionally, adopting a modular architecture for the payment processing workflow would have made future integrations smoother and less time-intensive.
     </li>
 </ul>
 </details>
@@ -184,16 +188,21 @@ I am excited about the opportunity to bring my diverse skill set, passion for te
 <summary><b>Describe a time when you went above and beyond the requirements for a project.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>While working as a software developer at a tech startup, I was part of a team developing a new mobile application. The project had a tight deadline and was crucial for the company's growth strategy.
+        <b>Situation: </b>During the development of the Core Custom Reporting Module in an ERP system, the initial requirements specified creating standard financial reports based on predefined templates. However, as we progressed, I realized that the business operations of various regions were highly nuanced, requiring flexibility for cross-country data mapping and customizable reporting capabilities. Without addressing this need, the solution would be less impactful for global operations.
     </li>
     <li>
-        <b>Task: </b>My initial responsibility was to develop several features of the app within the set timeline. However, I recognized an opportunity to not only meet but exceed the project requirements by enhancing the user experience and performance of the application.
+        <b>Task: </b>My task was to ensure the reporting module met the original requirements while identifying opportunities to add flexibility and customization features, enabling users to generate tailored reports for their specific regions and operational needs.
     </li>
     <li>
-        <b>Action: </b>After completing my assigned tasks ahead of schedule, I took the initiative to conduct additional research on the latest user interface (UI) and user experience (UX) trends relevant to our app. I proposed and received approval to implement a set of advanced UI enhancements. Outside of regular work hours, I developed a more intuitive navigation system and integrated several innovative features, such as gesture controls and predictive text input, which were not part of the original scope. I collaborated with the UI/UX team to ensure these enhancements aligned with the overall design philosophy and with the backend team to ensure compatibility and performance optimization.
+        <b>Action: </b>I proposed and implemented additional features beyond the scope of the original requirements. These included:
+        <li><b>Dynamic Report Builder:</b> Developed a drag-and-drop interface using Angular, allowing users to define their report layouts and content dynamically.</li>
+        <li><b>Cross-Country Data Mapping:</b>Leveraged C# and MongoDB to implement a mapping engine that aligned country-specific data formats into a unified structure.</li>
+        <li><b>Advanced Filters and Visualization:</b> Added advanced filters and data visualization tools for better insights, using third-party libraries compatible with Angular.</li>
+        <li><b>Performance Optimization:</b> Ensured that the system could handle large datasets efficiently by optimizing MongoDB queries and incorporating caching mechanisms.</li>
     </li>
     <li>
-        <b>Result: </b>The additional features I implemented were well-received by the team and, ultimately, by the users upon release. The app received positive reviews, particularly highlighting its user-friendly interface and innovative features. These enhancements played a significant role in the app achieving a higher than expected user retention rate. This experience not only demonstrated my commitment and ability to go above and beyond but also underscored the importance of proactive initiative and staying ahead of industry trends in software development.
+        <b>Result: </b>The enhanced module streamlined 60% of the company’s business operations related to cost management, profit/loss analysis, and resource allocation. The flexibility of the dynamic report builder reduced dependency on IT teams for custom reports by 70%, significantly boosting productivity across departments. These enhancements earned high praise from the client, and the module became a key selling point for the ERP system.
+        While the outcome was highly successful, the process could have been more efficient with earlier stakeholder involvement for capturing these extended requirements. Moving forward, I would adopt a phased delivery approach where the core functionality is delivered first, and extended features are incorporated iteratively, reducing risks and improving feedback cycles.
     </li>
 </ul>
 </details>
