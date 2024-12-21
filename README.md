@@ -212,16 +212,22 @@ In hindsight, I would have implemented a more comprehensive pre-integration test
 <summary><b>How do you handle a situation where you don't know the answer to a question?</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>In my previous role as a software developer at a tech firm, during a crucial client meeting, I was asked about integrating our software with a technology I was not familiar with.
+        <b>Situation: </b>During the development of the Generic Kiosk Solution, a client asked a highly technical question about integrating a payment gateway we had not previously worked with. They wanted to know if their preferred provider supported certain custom APIs for offline transactions, which were critical for their business operations.
     </li>
     <li>
-        <b>Task: </b>It was important to handle the situation professionally without losing the client's confidence in our team's expertise.
+        <b>Task: </b>As the team lead for this module, it was my responsibility to address the client's query, ensure their confidence in our solution, and determine whether this integration was feasible.
     </li>
     <li>
-        <b>Action: </b>I acknowledged that I didn’t have the information on hand but assured them of my commitment to finding a solution. I explained the steps I would take to get the necessary information: firstly, researching the technology myself, and secondly, consulting with my team who might have relevant experience or insights. I requested a short period to gather the information and scheduled a follow-up meeting. After the client meeting, I delved into researching the technology, learning its fundamentals, and how it could potentially integrate with our software. I also reached out to a colleague who had experience with similar integrations and gathered valuable insights.
+        <b>Action: </b>
+        <ol>
+          <li><b>Acknowledgment:</b> I honestly admitted that I didn’t have the answer at that moment but assured the client I would investigate and provide a solution.</li>  
+          <li><b>Research:</b> I immediately reviewed the payment gateway's documentation to understand its API capabilities. When I didn’t find enough clarity, I contacted the provider's technical support team to get detailed insights into the offline transaction API.</li>  
+          <li><b>Team Collaboration:</b> I consulted with the team to brainstorm potential approaches for integrating the gateway's APIs with our existing architecture, leveraging ASP.NET Core, C#, and Angular for the solution.</li>  
+          <li><b>Client Follow-Up:</b> Within two business days, I presented the client with a clear plan detailing how the integration would work and outlined the timeline for implementation.</li>  
+        </ol>
     </li>
     <li>
-        <b>Result: </b>Within two days, I was able to not only understand the technology but also developed a preliminary integration strategy. In the follow-up meeting, I presented this strategy to the client, which not only met their requirements but also showcased our team's adaptability and commitment to providing tailored solutions. The client was impressed with the quick turnaround and the thoroughness of the response, which further strengthened our relationship. This experience reinforced the importance of honest communication, proactive problem-solving, and leveraging team knowledge in my professional development.
+        <b>Result: </b>The client was impressed with the transparency and promptness of my response. The proposed solution was approved, and we successfully integrated the payment gateway within the agreed timeframe. The feature became a standout aspect of the Generic Kiosk Solution, making it appealing to other clients as well. This experience reinforced the importance of maintaining transparency and leveraging team expertise when facing unknowns. If I encountered a similar situation today, I would enhance efficiency by documenting the research process and creating a repository of commonly asked technical questions, enabling quicker resolutions in future projects.
     </li>
 </ul>
 </details>
@@ -246,16 +252,16 @@ In hindsight, I would have implemented a more comprehensive pre-integration test
 <summary><b>Describe a time when you had to give someone difficult feedback. How did you handle it?</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>While working as a senior software developer at a tech company, I was mentoring a junior developer, let's call him Alex. Alex was enthusiastic and talented, but I noticed that his code often lacked proper documentation, which is crucial for our team's workflow and long-term project maintenance.
+        <b>Situation: </b>While working on the CRM Campaign Management System, I developed a feature to schedule and manage marketing campaigns. After an initial review, my manager provided critical feedback, highlighting that my implementation did not adequately account for concurrency issues during simultaneous campaign launches and lacked detailed logging for troubleshooting failures. This feedback was tough to receive, especially as I had worked hard to deliver the feature within a tight deadline and believed it was functional and reliable.
     </li>
     <li>
-        <b>Task: </b>My task was to provide Alex with this critical feedback in a way that was constructive and encouraging, without discouraging his enthusiasm and confidence.
+        <b>Task: </b>The task was to address the shortcomings by reworking the feature to handle concurrency issues, improve system reliability, and add comprehensive logging mechanisms. The goal was to ensure the system could handle simultaneous campaign launches seamlessly and provide better diagnostics for errors, thereby meeting the required quality standards.
     </li>
     <li>
-        <b>Action: </b>I arranged a one-on-one meeting with Alex to discuss his recent work. I started by acknowledging the strengths in his coding skills and the value he brought to the team. Then, I gently introduced the issue of the lack of documentation in his code. I explained the importance of comprehensive documentation, not only for the current team but also for any future developers who might work on the project. To guide him, I provided examples of well-documented code and offered to share resources and best practices on effective documentation. I made sure to keep the tone of the conversation positive and focused on growth and learning.
+        <b>Action: </b>I began by analyzing the gaps in my implementation, particularly focusing on how concurrent campaign launches were managed. I redesigned the scheduling logic by introducing a locking mechanism to prevent conflicts and ensured transactional consistency using MongoDB's ACID transactions. I also added detailed logging mechanisms to capture critical system activities, enabling easier debugging and monitoring. To validate the changes, I collaborated with a senior teammate to conduct rigorous tests, including load testing and failure scenario simulations, to ensure the revised feature was robust.
     </li>
     <li>
-        <b>Result: </b>Alex responded well to the feedback. He understood the importance of documentation and began to improve in this area. Over the next few projects, there was a noticeable enhancement in his code documentation. He even thanked me later for the feedback, acknowledging how it helped him become a better developer. This experience underscored the importance of delivering feedback in a constructive manner, focusing on growth and learning, and the value of mentorship in a team's development.
+        <b>Result: </b>The improved campaign scheduling feature effectively handled concurrency issues and enhanced system reliability, resulting in smoother campaign launches even under high load. The detailed logging mechanisms also made error tracing significantly more efficient. My manager appreciated the changes and recognized my ability to address feedback constructively. This updated feature became a reliable component of the system, supporting large-scale campaigns without issues.This experience taught me the value of embracing feedback as an opportunity for growth. Since then, I’ve prioritized designing with modularity, edge case handling, and observability in mind. I also ensure to seek early feedback during development to align expectations and maintain high-quality standards.
     </li>
 </ul>
 </details>
@@ -263,16 +269,16 @@ In hindsight, I would have implemented a more comprehensive pre-integration test
 <summary><b>Tell me about a time when you had to prioritize your tasks quickly.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>In my previous role as a software developer at a fast-paced tech startup, our team was often juggling multiple projects simultaneously. There was one particular week where the demands peaked unexpectedly.
+        <b>Situation: </b>While leading the CRM project with a team of 7-8 developers, we faced a critical situation where a client’s campaign feature was experiencing a major issue that was preventing marketing campaigns from being sent out to users. At the same time, there was an urgent requirement for an update to the reporting module that was due for a high-level client presentation. Both tasks were time-sensitive, and I needed to act quickly to ensure both were addressed without compromising the project’s deadlines.
     </li>
     <li>
-        <b>Task: </b>I was in the middle of developing a new feature for our main product, but at the same time, a critical bug was reported in another project that I had previously worked on. This bug was causing significant issues for one of our key clients. My task was to address both the urgent bug fix and the ongoing development work without compromising the quality and timeline of either.
+        <b>Task: </b>My responsibility was to prioritize these tasks effectively, ensuring the campaign issue was resolved immediately to avoid further disruption to the client’s business, while also keeping the reporting module update on track for the presentation. I needed to balance the urgency of fixing the campaign issue with the importance of preparing the reporting module update.
     </li>
     <li>
-        <b>Action: </b>I quickly assessed the situation and prioritized the tasks. Resolving the critical bug was the immediate priority due to its impact on the client. I communicated this to my team lead and requested a brief pause on the feature development. I then focused on identifying and fixing the bug. After dedicating a few hours to this, I was able to deploy a patch to resolve the issue. Once the urgent matter was handled, I shifted my focus back to the feature development. To manage my time effectively, I broke down the remaining development work into smaller tasks and set specific mini-deadlines. I also stayed a couple of extra hours for the next few days to ensure I was back on track with the feature development.
+        <b>Action: </b> immediately called a meeting with the development team to assess the severity of the campaign issue. We identified that it was a concurrency issue that needed a quick patch to avoid downtime. I delegated this task to a senior developer while I focused on the reporting module update. I worked with the team to ensure we could provide a temporary solution to the campaign issue while the detailed fix was being developed in parallel. I also coordinated with the client to provide them with updates on both issues. Once the temporary fix for the campaign feature was deployed, I shifted my focus to the reporting module, implementing the required updates and preparing the presentation materials. I communicated frequently with the team to ensure we met both deadlines without compromising quality.
     </li>
     <li>
-        <b>Result: </b>The quick response to the bug resulted in minimal disruption for the client, who expressed their appreciation for our prompt action. The feature development was also completed on time, meeting the planned release schedule. This experience reinforced my ability to quickly prioritize tasks under pressure, the importance of effective time management, and clear communication with team leads and clients. It was a valuable lesson in balancing urgent and important tasks in a dynamic work environment.
+        <b>Result: </b>The temporary fix for the campaign issue was deployed quickly, and the team successfully completed the more detailed solution shortly afterward. The reporting module update was ready in time for the client presentation, and the client was impressed with the improvements. We were able to deliver both high-priority tasks on time, ensuring the client’s marketing activities continued without disruption and the presentation was a success. This experience reinforced the importance of assessing task urgency, effective delegation, and clear communication under pressure. I learned to prioritize tasks quickly by breaking them down into manageable pieces and involving the team to leverage their expertise. Going forward, I’ve focused on improving my time management and task delegation skills to handle similar situations even more efficiently.
     </li>
 </ul>
 </details>
@@ -280,16 +286,16 @@ In hindsight, I would have implemented a more comprehensive pre-integration test
 <summary><b>Describe a time when you anticipated potential problems and developed preventive measures.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>In my previous role as a software developer at a digital services company, we were working on a large-scale web application expected to handle a high volume of user traffic post-launch.
+        <b>Situation: </b>While working on the Generic POS System for a client with multiple branches, I realized that the POS system would need to scale to accommodate future growth as the client expanded their operations. Given the cloud-based architecture of the solution and the potential for increased traffic across multiple branches, I anticipated potential problems such as system latency, data synchronization issues, and scalability challenges that could arise as the number of POS terminals grew. It was crucial to proactively address these issues before they became a problem.
     </li>
     <li>
-        <b>Task: </b>Based on my experience, I recognized early on that we might face scalability issues if the user base grew rapidly. My task was to ensure the application was scalable and could handle the projected increase in traffic without performance degradation.
+        <b>Task: </b>My task was to anticipate potential issues related to scaling the system, ensuring smooth performance across branches, and preventing possible disruptions to the client’s operations. I needed to develop a set of preventive measures that would address scalability, data consistency, and high availability, especially as the system would be handling multiple users and transactions concurrently across different branches.
     </li>
     <li>
         <b>Action: </b>To address this, I proposed conducting a series of load testing procedures before the launch. I collaborated with the testing team to design and implement these tests, which simulated varying levels of user traffic. This allowed us to identify bottlenecks in the system's ability to handle high concurrent user loads. Based on the test results, I led a team effort to optimize database queries, implement efficient caching mechanisms, and utilize load balancing solutions. Additionally, I advocated for the integration of an auto-scaling solution for our cloud infrastructure, ensuring that the application could dynamically adjust to traffic demands.
     </li>
     <li>
-        <b>Result: </b>These proactive measures paid off when the application launched. The launch campaign was highly successful, leading to a rapid influx of users. Thanks to the scalability improvements, the application handled the surge in traffic flawlessly, with no significant performance issues. This success not only boosted the client’s confidence in our company but also led to recognition from our senior management for the foresight and technical proficiency demonstrated by our team. This experience reinforced the importance of anticipating potential challenges and proactively implementing solutions in software development.
+        <b>Result: </b>The preventive measures I implemented ensured that the POS system could scale smoothly as the client expanded to new branches. The system performed well under increased traffic without latency issues, and data synchronization across branches remained consistent. The monitoring system allowed us to proactively address any emerging issues, leading to minimal downtime and a highly reliable solution for the client. The client was able to roll out the system to multiple branches without facing significant performance challenges. This experience reinforced the importance of thinking ahead and anticipating potential problems before they escalate. I learned the value of proactive planning and implementing scalable solutions, especially in systems expected to grow over time. Since then, I’ve made it a priority to include scalability and performance considerations in the early stages of any project, ensuring that preventive measures are in place before issues arise.
     </li>
 </ul>
 </details>
