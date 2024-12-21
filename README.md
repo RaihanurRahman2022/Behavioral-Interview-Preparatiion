@@ -195,10 +195,12 @@ In hindsight, I would have implemented a more comprehensive pre-integration test
     </li>
     <li>
         <b>Action: </b>I proposed and implemented additional features beyond the scope of the original requirements. These included:
+      <ul>
         <li><b>Dynamic Report Builder:</b> Developed a drag-and-drop interface using Angular, allowing users to define their report layouts and content dynamically.</li>
         <li><b>Cross-Country Data Mapping:</b>Leveraged C# and MongoDB to implement a mapping engine that aligned country-specific data formats into a unified structure.</li>
         <li><b>Advanced Filters and Visualization:</b> Added advanced filters and data visualization tools for better insights, using third-party libraries compatible with Angular.</li>
         <li><b>Performance Optimization:</b> Ensured that the system could handle large datasets efficiently by optimizing MongoDB queries and incorporating caching mechanisms.</li>
+      </ul>
     </li>
     <li>
         <b>Result: </b>The enhanced module streamlined 60% of the company’s business operations related to cost management, profit/loss analysis, and resource allocation. The flexibility of the dynamic report builder reduced dependency on IT teams for custom reports by 70%, significantly boosting productivity across departments. These enhancements earned high praise from the client, and the module became a key selling point for the ERP system.
