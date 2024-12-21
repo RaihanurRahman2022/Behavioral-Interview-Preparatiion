@@ -50,47 +50,45 @@ Here are a few more common behavioral interview questions along with STAR-based 
 ## 🚀 Questions
 <details>
 <summary><b>Tell me about yourself.</b></summary>
-I am a software developer with over five years of experience in the tech industry, specializing in full-stack development. My journey in software development began with a bachelor's degree in Computer Science, which laid a solid foundation in programming and problem-solving skills.
+I am a software developer with over five years of experience in the tech industry, specializing in full-stack development. My journey began with a bachelor's degree in Computer Science, which provided a strong foundation in programming and problem-solving.
 
-Throughout my career, I have worked with various technologies and programming languages, including JavaScript, Python, and Java. I have a strong background in developing web applications, and I am particularly passionate about creating user-friendly, efficient, and scalable solutions. My most recent role was with XYZ Tech, where I was part of a team that developed a cloud-based logistics management system. This project not only honed my technical skills but also improved my abilities in teamwork and communication.
+Throughout my career, I’ve worked with various technologies, including JavaScript and C#. I have a robust background in web application development and am passionate about creating user-friendly, efficient, and scalable solutions. In my most recent role at SELISE, I led a CRM project using Angular and .NET, enhancing both my technical and leadership skills.
 
-I am always eager to learn and grow. Apart from my project work, I regularly engage in professional development activities. This includes taking online courses to stay updated with the latest technological trends, participating in coding challenges, and contributing to open-source projects.
+My expertise spans designing scalable systems, implementing dynamic UIs, and managing cross-functional teams. I’ve made significant contributions to role management systems and large-scale ERP solutions, with a focus on performance and cost efficiency. Additionally, I am a competitive programmer with accolades, including a top 25 rank in ACM ICPC Dhaka, and I thrive in innovative and collaborative environments.
 
-In my free time, I enjoy attending tech meetups and seminars, which helps me stay connected with the tech community and continuously learn from my peers. I also have a keen interest in AI and machine learning, and I am currently working on a personal project that utilizes machine learning algorithms to analyze and predict user behavior.
-
-I am excited about the opportunity to bring my diverse skill set, passion for technology, and collaborative spirit to your team. I look forward to contributing to innovative projects and being a part of the dynamic and forward-thinking environment that your company is known for.
+I am excited about the opportunity to bring my diverse skill set, passion for technology, and collaborative mindset to your team. I look forward to contributing to innovative projects and being part of the dynamic environment your company offers.
 </details>
 <details>
 <summary><b>Tell me about a time you had a disagreement with your manager.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>At my previous job as a software engineer, I once found myself in disagreement with my manager over the approach to a new feature in our software application. My manager wanted to implement the feature using a certain technology stack that I believed was not the best choice for our long-term goals.
+        <b>Situation: </b>While leading a team to implement a Core Custom Reporting Module for an ERP solution, my manager proposed a solution for cross-country data mapping that heavily relied on manual data input from multiple sources. This approach could potentially slow down the system and increase the risk of human error.
     </li>
     <li>
-        <b>Task: </b>My task was to effectively communicate my concerns and suggest an alternative approach that I believed was more beneficial for the project.
+        <b>Task: </b>As the team lead, I was responsible for ensuring the project met both performance and accuracy requirements. I needed to address the concerns with the proposed approach and advocate for a more automated solution.
     </li>
     <li>
-        <b>Action: </b>I requested a one-on-one meeting with my manager to discuss this issue in detail. Before the meeting, I prepared a comprehensive comparison of the two technology stacks, highlighting aspects like long-term maintainability, performance, compatibility with our existing systems, and overall impact on the project timeline. During the meeting, I presented my findings in a respectful and concise manner, emphasizing my commitment to the project's success and the team's efficiency. I also made it clear that I respected his experience and perspective and was open to further discussion and compromise.
+        <b>Action: </b>I requested a one-on-one meeting with my manager to discuss this issue in detail.Before the meeting, I analyzed the potential bottlenecks of the manual process and prepared a comprehensive comparison with an alternative approach using automated data pipelines. The automated solution leveraged MongoDB for structured storage and Angular for building user-friendly interfaces, allowing for seamless data integration across countries. I presented my findings to my manager, emphasizing the long-term efficiency gains and reduced error rates with automation. I also ensured to frame the discussion as a collaborative effort to achieve the best outcome for the project.
     </li>
     <li>
-        <b>Result: </b>My manager appreciated the thorough analysis and was impressed with the initiative I had taken to research the alternatives. After further discussion and consultation with the team, we decided to adopt a hybrid approach, incorporating elements from both our suggestions. This incident not only led to a more robust solution for our project but also strengthened my relationship with my manager. It taught me the importance of open communication, thorough preparation, and respect for different viewpoints in resolving professional disagreements.
+        <b>Result: </b>After a constructive discussion, my manager agreed to adopt the automated solution. The implementation streamlined 60% of business operations related to cost management and profit/loss analysis, exceeded performance expectations, and minimized errors. This incident not only led to a more robust solution for our project but also strengthened my relationship with my manager. It taught me the importance of open communication, thorough preparation, and reinforced the importance of data-driven communication and collaboration in resolving disagreements constructively.
     </li>
 </ul>
 </details>
 <details>
-<summary><b>Tell me about a situation when you had a conflict with a teammate.</b></summary>
+  <summary><b>Tell me about a situation when you had a conflict with a teammate.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>During a previous role as a software developer, I was part of a team working on a new feature for our company’s main product. A conflict arose with a teammate, let's call her Sarah, who disagreed with my proposed implementation approach, favoring a different, more complex solution.
+        <b>Situation: </b>While working on the CRM project, one of my teammates, responsible for integrating Post Finance for online payments, had a different approach for handling payment reconciliation. He suggested a method that relied on batching data updates at the end of each day, while I believed a real-time synchronization method would ensure better data accuracy and user experience.
     </li>
     <li>
-        <b>Task: </b>My task was to resolve this conflict in a way that would not only maintain team harmony but also ensure the best technical solution was chosen for our project.
+        <b>Task: </b>The challenge was to resolve the disagreement in a way that aligned with the project’s objectives, ensured payment data accuracy, and adhered to deadlines.
     </li>
     <li>
-        <b>Action: </b>I initiated a meeting with Sarah to understand her perspective and concerns. I listened attentively to her reasoning and explained my viewpoint and the benefits of my approach, including better maintainability and faster implementation time. Realizing that we were both not fully aligned, I suggested we present both approaches to the team and gather input. During the team meeting, we discussed the pros and cons of each method in detail. I made sure to keep the discussion focused on the technical merits of each approach rather than personal preferences.
+        <b>Action: </b>I scheduled a one-on-one discussion with my teammate to understand their perspective and share my concerns. I explained that while the end-of-day batching approach might simplify implementation, it could introduce delays and discrepancies in payment records. To demonstrate the feasibility of real-time synchronization, I created a prototype using MongoDB and C# to handle data syncing in near real-time while maintaining system performance. I also suggested conducting a team review to weigh the pros and cons of both approaches.
     </li>
     <li>
-        <b>Result: </b>The team ultimately decided that a combination of both our approaches was the best way forward. This hybrid solution combined the robustness of Sarah's method with the simplicity of mine. This resolution not only led to the successful completion of the feature but also improved my professional relationship with Sarah. We both appreciated each other's expertise and commitment to the project. This experience taught me the value of collaboration, open communication, and the importance of considering different perspectives in problem-solving.
+        <b>Result: </b>After seeing the prototype and discussing the potential benefits, my teammate agreed to proceed with the real-time synchronization approach. This decision improved the accuracy of payment data and enhanced the system’s reliability for users. The conflict resolution strengthened our collaboration and helped us deliver the payment integration on time, exceeding client expectations.
     </li>
 </ul>
 </details>
@@ -98,16 +96,16 @@ I am excited about the opportunity to bring my diverse skill set, passion for te
 <summary><b>Tell me about a time you failed. How did you deal with the situation?</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>In my role as a software developer at a tech startup, I was responsible for developing a new feature for our application. This feature was highly anticipated and was supposed to significantly enhance user experience.
+        <b>Situation: </b>In my role as a software developer at SELISE, During the development of a Generic Kiosk Solution, I underestimated the complexity of integrating multiple third-party payment providers. My initial approach used a uniform API structure for all providers, assuming it would work seamlessly. However, during testing, I discovered significant discrepancies in the APIs' behavior, leading to integration failures and delays.
     </li>
     <li>
-        <b>Task: </b>The task was not only to develop the feature but also to ensure it was robust and bug-free before the scheduled release date.
+        <b>Task: </b>I was responsible for resolving these integration issues promptly without compromising the project timeline. The goal was to deliver a fully functional system with seamless payment provider integration.
     </li>
     <li>
-        <b>Action: </b>In my eagerness to meet the deadline and impress the team, I rushed through the testing phase, skipping some of the more thorough, time-consuming tests I usually perform. The feature was deployed in the update, but it quickly became apparent that it contained a critical bug that severely affected user experience. Realizing my mistake, I immediately took responsibility and informed my team lead. I then worked diligently to fix the bug, conducting a comprehensive review and testing process to ensure no other issues were present. I also initiated a root cause analysis to understand why the bug was missed and to prevent similar issues in the future.
+        <b>Action: </b>I immediately acknowledged the oversight and initiated a root cause analysis. I worked closely with my team to redesign the integration architecture, adopting a more modular approach using C#, ASP.NET Core, and MongoDB. This allowed us to create provider-specific handlers that could manage the unique requirements of each API while still adhering to a common interface. I also prioritized open communication with stakeholders, updating them about the issue and presenting the revised plan with realistic timelines.
     </li>
     <li>
-        <b>Result: </b>The bug was fixed and an updated version of the app was released within 24 hours. While the initial release did cause some user frustration, my prompt response and communication with the affected users helped mitigate the situation. This experience was a humbling lesson in the importance of maintaining rigorous quality standards, regardless of time pressures. It also highlighted the value of thorough testing and the need to balance speed with reliability in software development. Since then, I have been more diligent in my testing processes, contributing to higher overall quality in subsequent releases.
+        <b>Result: </b>Although the project was delayed by two weeks, the redesigned architecture proved robust and flexible, allowing us to integrate additional payment providers more easily in the future. The incident taught me the importance of thorough initial analysis and incorporating contingency plans for unexpected complexities. The lesson significantly improved my approach to project planning and risk management.
     </li>
 </ul>
 </details>
@@ -115,16 +113,16 @@ I am excited about the opportunity to bring my diverse skill set, passion for te
 <summary><b>Describe a time when you led a team. What was the outcome?</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>At my previous job in a tech company, I was appointed as the lead developer for a critical project. The project's goal was to develop a new feature for our flagship product that would enable better data analytics capabilities for our clients.
+          <b>Situation: </b>At my previous job in a tech company, I was appointed as the lead developer for a CRM project. I was leading a team of 7-8 developers on that CRM project that involved integrating Post Finance for online payments, synchronizing data with Abacus, and implementing a Campaign Management System. The project was complex, requiring collaboration across multiple domains and tight deadlines to deliver critical features.
     </li>
     <li>
-        <b>Task: </b>My task was to lead a team of five developers and two UI/UX designers to deliver the project within a six-month timeframe. This involved not only technical leadership but also coordinating with other departments, managing timelines, and ensuring the team remained motivated and productive.
+        <b>Task: </b>My responsibility was to ensure the team stayed on track, met the delivery timelines, and produced a high-quality product that improved data accuracy, streamlined campaign management, and ensured reliable payment processing.
     </li>
     <li>
-        <b>Action: </b>To effectively manage this project, I started by organizing a kickoff meeting to align everyone with the project goals and timelines. I established clear communication channels and regular check-ins to monitor progress. I encouraged open discussions, allowing team members to voice their ideas and concerns, fostering a collaborative environment. Recognizing the strengths of each team member, I delegated tasks accordingly, ensuring an efficient workflow. To maintain morale and manage workloads, I implemented flexible working hours and regular team-building activities. I also liaised with other department heads to ensure our work was in sync with the company's overall objectives and timelines.
+        <b>Action: </b>I divided the project into manageable phases using Agile methodologies and facilitated daily stand-ups to monitor progress and address blockers. I ensured clear communication of requirements and objectives, emphasizing collaborative problem-solving when challenges arose. For the Post Finance integration, I organized a deep-dive session to help the team understand the technical nuances and provided support by prototyping some complex payment workflows. Additionally, I coordinated with the Abacus team to resolve synchronization issues efficiently.
     </li>
     <li>
-        <b>Result: </b>The team worked cohesively and efficiently under this structure. We successfully completed the project two weeks ahead of schedule and within budget. The new feature was well-received by clients, leading to a 20% increase in customer satisfaction and a 15% increase in product sales. The project's success also led to my team being recognized by the company’s senior management, and several team members were subsequently promoted. This experience reinforced my skills in leadership, project management, and team collaboration, and it was a significant milestone in my professional development.
+        <b>Result: </b>The team successfully delivered the project on time, with all major features functioning seamlessly. The Campaign Management System improved marketing outreach by 25%, while data synchronization with Abacus significantly enhanced system reliability. The integration of Post Finance reduced payment processing errors by 30%, exceeding client expectations. The project’s success not only strengthened team morale but also demonstrated the value of clear leadership and collaboration in achieving challenging objectives.
     </li>
 </ul>
 </details>
@@ -132,16 +130,36 @@ I am excited about the opportunity to bring my diverse skill set, passion for te
 <summary><b>Tell me about a time you worked well under pressure.</b></summary>
 <ul>
     <li>
-        <b>Situation: </b>At my previous position as a software developer, our company faced a critical situation when a major client reported a significant bug in our software, which was affecting their day-to-day operations. The bug needed to be resolved urgently to maintain our client relationship and reputation.
+        <b>Situation: </b>During the development of the Custom Reporting Module for the pharmaceutical CRM solution, a critical bug was discovered just days before the go-live date. The bug caused discrepancies in cross-country data mapping, which was a core functionality relied upon for generating accurate cost management and profit/loss reports. The client was highly dependent on these reports to make crucial financial decisions.
     </li>
     <li>
-        <b>Task: </b>As part of the development team, it was my responsibility to quickly identify and fix the bug. The pressure was immense due to the high stakes involved and the tight deadline set by the client, who needed the issue resolved within 48 hours.
+        <b>Task: </b>I needed to identify and resolve the bug swiftly to ensure the system was fully operational by the deadline. There was no room for error, as missing the go-live date would severely impact the client’s operations.
     </li>
     <li>
-        <b>Action: </b>I immediately began working on the issue, meticulously combing through the code to identify the source of the bug. To manage the pressure, I broke down the task into smaller, manageable parts and set mini-deadlines for each. I stayed in constant communication with my team, updating them on my progress and seeking their input when necessary. I also coordinated with the client's technical team to better understand the issue from their perspective. After long hours of focused work, I identified a flaw in the recent update that caused the bug. I worked on the fix, rigorously tested it to ensure it wouldn't lead to other issues, and then deployed it.
+        <b>Action: </b>I immediately assembled a small task force from my team to prioritize the issue. We conducted an in-depth root cause analysis and identified that the problem stemmed from a mismatch in data formats between two country-specific APIs. To address this, I wrote a middleware service in C# to normalize the data and ensure compatibility. Simultaneously, I maintained communication with stakeholders, keeping them updated on progress and assuring them of our commitment to resolving the issue.
     </li>
     <li>
-        <b>Result: </b>The bug was resolved well within the 48-hour deadline. The client was extremely pleased with the prompt and efficient response, and our swift action helped strengthen their trust in our company. This experience not only demonstrated my ability to work effectively under pressure but also reinforced the importance of clear communication, teamwork, and a methodical approach to problem-solving in high-pressure situations. It was a significant learning experience and a testament to my resilience and technical skills.
+        <b>Result: </b>The middleware service was implemented and rigorously tested within 48 hours. The solution resolved the data discrepancies, allowing the reports to be generated accurately. The project went live on time, and the module was lauded by the client for its reliability and performance. The experience reinforced my ability to stay focused and lead effectively under pressure, ensuring successful outcomes despite challenging circumstances.
+    </li>
+</ul>
+</details>
+<details>
+<summary><b>Tell me about a feature or problem you solved, how you solved it at that time, and what you could do better now.</b></summary>
+<ul>
+    <li>
+        <b>Situation: </b>While working on the Generic POS System, a significant problem arose during the deployment phase. The system needed to support multiple branches with customizable layouts, but branch-specific configurations were causing latency issues in real-time data synchronization. This was particularly problematic for larger branches with complex table arrangements and high customer volume.
+    </li>
+    <li>
+        <b>Task: </b>My task was to optimize the synchronization process to ensure real-time updates for all branches without compromising performance, while maintaining the flexibility of the POS system for future scaling.
+    </li>
+    <li>
+        <b>Action: </b>At that time, I implemented a caching mechanism using Redis to temporarily store frequently accessed branch-specific data. This reduced the load on the MongoDB database and significantly improved response times. Additionally, I wrote REST APIs in C# to streamline communication between the back-office and POS systems, ensuring that updates were reflected promptly.
+    </li>
+    <li>
+        <b>Result: </b>The caching solution reduced synchronization delays by 40%, and the system performed reliably across all branches. This allowed the POS system to handle peak loads efficiently, meeting client expectations and enhancing the customer experience.
+    </li>
+     <li>
+        <b>What I Could Do Better Now: </b>Looking back, I could have taken a more forward-thinking approach by leveraging event-driven architectures, such as RabbitMQ, to implement asynchronous updates. This would decouple the back-office and POS systems further, allowing even better scalability and resilience. Additionally, I would incorporate performance monitoring tools like Prometheus and Grafana from the outset to identify bottlenecks proactively and ensure consistent performance as the system scaled.
     </li>
 </ul>
 </details>
